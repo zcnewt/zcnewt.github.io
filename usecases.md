@@ -2,6 +2,7 @@
 title: NoSQL Use Cases
 ---
 # NoSQL Use Cases
+
 ## General Use Cases
 
 * Bigness. NoSQL is seen as a key part of a new data stack supporting: big data, big numbers of users, big numbers of computers, big supply chains, big science, and so on. When something becomes so massive that it must become massively distributed, NoSQL is there, though not all NoSQL systems are targeting big. Bigness can be across many different dimensions, not just using a lot of disk space. 
@@ -183,55 +184,62 @@ title: NoSQL Use Cases
 
 ### Related Articles
 
-    Hacker News and Reddit thread on this Post. More use case suggestions there. 
-    List of NoSQL Systems
-    Pig - infrastructure to support ad-hoc analysis of very large data sets.
-    Digging Deeper Into Data With Hadoop By Gary Orenstein 
-    NoSQL East 2009 - Summary of Day 1 by Eivind Uggedal
-    The “NoSQL” approach: struggling to see the benefits by Neil Saunders 
-    Design Patterns for DistributedNon-Relational Databases by Todd Lipcon.
-    The Future Is Big Data in the Cloud By Ping Li
-    One size does not fit all: “document stores”, “nosql databases” , ODBMSs by Roberto V. Zicari
-    NoSQL is for niches By Dana Blankenhorn.
-    MongoDB Use Cases
-    MongoDB and Ecommerce by  Kyle Banker
-    Archiving - a good MongoDB use case?
-    Five Reasons to Use NoSQL by Jeremiah Peschka
-    The Business Case for NoSQL, NoETL and NoProblems by Loraine Lawson
-    Is It Time For NoETL? by Seth Grimes
-    Holy Large Hadron Collider, Batman!
-    I Can't Wait for NoSQL to Die by Ted Dziuba.
-    NoSQL Basics, Benefits and Best-Fit Scenarios by Curt Monash 
-    Redis Tutorial by Simon Willison
-    Why I Like Redis by Simon Willison
-    Redis: Lightweight key/value Store That Goes the Extra Mile by Jeremy Zawodny
-    Remote Dictionary Server
-    Is NoSQL for me? I’m just a small fish by Hadi Hariri
-    Why Big Enterprises are Interested in NoSQL by Jon Moore
-    Visual Guide to NoSQL Systems by Nathan Hurst
-    You Can't Sacrifice Partition Tolerance by Coda Hale
-    NoSQL Netflix Use Case Comparison by Adrian Cockcroft
-    Comparison guide of horizontally scalable datastores by Rick Cattell
-    Weak Consistency and CAP Implications by Ilya Grigorik 
-    Schema-Free MySQL vs NoSQL  by Ilya Grigorik 
-    Neo4j - 5 Cool Graph Examples
-    Has anyone used Graph-based Databases
-    Neotechnology Uses Cases
-    CouchOne Ataxo Case Study
-    NOSQL: scaling to size and scaling to complexity by Emil Eifrem
-    NoSQL, NoProblem (Not Really… but it’s still awesome) by Jeremy Pinkham
-    An Expert's Guide to Oracle Technology by Lewis Cunningham
-    NoSQL vs SQL, Why Not Both? By Alaric Snell-Pym 
-    Databases: relational vs object vs graph vs document by On Target 
-    Use cases are driving the divergence, and the convergence, of NoSQL solutions by James  Phillips
-    The beginning of the end of NoSQL by Matthew Aslett 
-    Going NoSQL with MongoDB by Ted Neward
-    NoSQL Ecosystem by Jonathan Ellis
-    The New Dimension of NoSQL Scalability: Complexity by Alex Popescu
-    Quick Reference to Alternative data storages by Alex Popescu
-    6 Reasons Why Relational Database Will Be Superseded  by Robin Bloor
-    NoSQL Misconceptions by Ben Scofield
-    SQL Databases Don't Scale by Adam Wiggins 
-    “One Size Fits All”: An Idea Whose Time Has Come and Gone by Michael Stonebraker and Uğur Çetintemel
-    Future of RDBMS is RAM Clouds & SSD by Ilya Grigorik
-    To scale or not to scale: Key/Value, Document, SQL, JPA  by Uri Cohen
+<ul>
+<li><a href="http://news.ycombinator.com/item?id=1976429">Hacker News</a>&nbsp;and <a href="http://www.reddit.com/r/programming/comments/ehaeq/high_scalability_what_the_heck_are_you_actually/">Reddit</a> thread on this Post. More use case suggestions there.&nbsp;</li>
+<li><a href="http://nosql-database.org/">List of NoSQL Systems</a></li>
+<li><a href="http://research.yahoo.com/node/90">Pig</a> - infrastructure to support ad-hoc analysis of very large data sets.</li>
+<li><a href="http://gigaom.com/2009/06/07/digging-deeper-into-data-with-hadoop/">Digging Deeper Into Data With Hadoop</a>&nbsp;By Gary Orenstein&nbsp;</li>
+<li><a href="http://journal.uggedal.com/nosql-east-2009---summary-of-day-1">NoSQL East 2009 - Summary of Day 1</a>&nbsp;by Eivind Uggedal</li>
+<li><a href="http://nsaunders.wordpress.com/2010/08/05/the-nosql-approach-struggling-to-see-the-benefits/">The “NoSQL” approach: struggling to see the benefits</a>&nbsp;by Neil Saunders&nbsp;</li>
+<li> <a href="http://static.last.fm/johan/nosql-20090611/intro_nosql.pdf ">Design Patterns for DistributedNon-Relational Databases</a> by Todd Lipcon. </li>
+<li><a href="http://gigaom.com/2009/10/25/the-future-is-big-data-in-the-cloud/">The Future Is Big Data in the Cloud</a> By Ping Li</li>
+<li><a href="http://www.odbms.org/blog/2010/02/document-stores-nosql-databases-odbmss/">One size does not fit all: “document stores”, “nosql databases” , ODBMSs</a>&nbsp;by Roberto V. Zicari</li>
+<li><a href="http://www.zdnet.com/blog/open-source/nosql-is-for-niches/6128">NoSQL is for niches</a>&nbsp;By Dana Blankenhorn.</li>
+<li><a href="http://www.mongodb.org/display/DOCS/Use+Cases">MongoDB Use Cases</a></li>
+<li><a href="http://kylebanker.com/blog/2010/04/30/mongodb-and-ecommerce/">MongoDB and Ecommerce</a>&nbsp;by&nbsp;&nbsp;Kyle Banker</li>
+<li><a href="http://blog.mongodb.org/post/1200539426/archiving-a-good-mongodb-use-case">Archiving - a good MongoDB use case?</a></li>
+<li><a href="http://facility9.com/2010/09/16/five-reasons-to-use-nosql">Five Reasons to Use NoSQL</a>&nbsp;by&nbsp;Jeremiah Peschka</li>
+<li><a href="http://www.itbusinessedge.com/cm/blogs/lawson/the-business-case-for-nosql-noetl-and-noproblems/?cs=40284">The Business Case for NoSQL, NoETL and NoProblems</a>&nbsp;by&nbsp;Loraine Lawson</li>
+<li><a href="http://intelligent-enterprise.informationweek.com/blog/archives/2010/03/is_it_time_for.html;jsessionid=3YOYNBBPASI5VQE1GHRSKH4ATMY32JVN">Is It Time For NoETL</a>?&nbsp;by Seth Grimes</li>
+<li><a href="http://blog.mongodb.org/post/660037122/holy-large-hadron-collider-batman">Holy Large Hadron Collider, Batman!</a></li>
+<li><a href="http://teddziuba.com/2010/03/i-cant-wait-for-nosql-to-die.html">I Can't Wait for NoSQL to Die</a> by Ted Dziuba.</li>
+<li><a href="http://intelligent-enterprise.informationweek.com/channels/information_management/showArticle.jhtml;jsessionid=ZLGYK42ZWIZSXQE1GHOSKH4ATMY32JVN?articleID=227701021&amp;pgno=2#">NoSQL Basics, Benefits and Best-Fit Scenarios</a> by Curt Monash&nbsp;</li>
+<li><a href="http://simonwillison.net/static/2010/redis-tutorial/">Redis Tutorial</a> by Simon Willison</li>
+<li><a href="http://simonwillison.net/2009/Oct/22/redis/ ">Why I Like Redis</a> by Simon Willison</li>
+<li><a href="http://www.linux-mag.com/id/7496">Redis: Lightweight key/value Store That Goes the Extra Mile</a> by&nbsp;Jeremy Zawodny</li>
+<li><a href="http://www.slideshare.net/ezmobius/redis-remote-dictionary-server">Remote Dictionary Server</a></li>
+<li><a href="http://devlicio.us/blogs/hadi_hariri/archive/2010/11/24/is-nosql-for-me-i-m-just-a-small-fish.aspx">Is NoSQL for me? I’m just a small fish</a>&nbsp;by Hadi Hariri</li>
+<li><a href="http://s3.amazonaws.com/cimlabs/Oredev-Enterprise-NoSQL.pdf">Why Big Enterprises are Interested in NoSQL</a>&nbsp;by&nbsp;Jon Moore</li>
+<li><a href="http://blog.nahurst.com/visual-guide-to-nosql-systems">Visual Guide to NoSQL Systems</a> by Nathan Hurst</li>
+<li><a href="http://codahale.com/you-cant-sacrifice-partition-tolerance/">You Can't Sacrifice Partition Tolerance</a> by Coda Hale</li>
+<li><a href="http://perfcap.blogspot.com/">NoSQL Netflix Use Case Comparison</a> by Adrian Cockcroft</li>
+<li><a href="http://cattell.net/datastores/Datastores.pdf">Comparison guide of horizontally scalable datastores</a> by Rick Cattell</li>
+<li><a href="http://www.igvita.com/2010/06/24/weak-consistency-and-cap-implications/">Weak Consistency and CAP Implications</a>&nbsp;by Ilya Grigorik&nbsp;</li>
+<li><a href="http://www.igvita.com/2010/03/01/schema-free-mysql-vs-nosql/">Schema-Free MySQL vs NoSQL</a>&nbsp;&nbsp;by Ilya Grigorik&nbsp;</li>
+<li><a href="http://www.slideshare.net/peterneubauer/neo4j-5-cool-graph-examples-4473985">Neo4j - 5 Cool Graph Examples</a></li>
+<li><a href="http://stackoverflow.com/questions/1000162/have-abyone-used-graph-based-databases-http-neo4j-org">Has anyone used Graph-based Databases</a></li>
+<li><a href="http://neotechnology.com/customers">Neotechnology Uses Cases</a></li>
+<li><a href="http://www.couchone.com/case-study-ataxo">CouchOne Ataxo Case Study</a></li>
+<li><a href="http://blogs.neotechnology.com/emil/2009/11/nosql-scaling-to-size-and-scaling-to-complexity.html">NOSQL: scaling to size and scaling to complexity</a>&nbsp;by Emil Eifrem</li>
+<li><a href="http://jeremypinkham.com/post/1587967351/nosql-noproblem-not-really-but-its-still-awesome#">NoSQL, NoProblem (Not Really… but it’s still awesome)</a>&nbsp;by Jeremy Pinkham</li>
+<li><a href="http://it.toolbox.com/blogs/oracle-guide/acid-vs-base-25938">An Expert's Guide to Oracle Technology</a>&nbsp;by Lewis Cunningham</li>
+<li>N<a href="http://www.cloudbook.net/resources/stories/nosql-vs-sql-why-not-both">oSQL vs SQL, Why Not Both?</a>&nbsp;By Alaric Snell-Pym&nbsp;</li>
+<li><a href="http://www.cbsolution.net/roller/ontarget/entry/databases_relational_vs_object_vs">Databases: relational vs object vs graph vs document</a>&nbsp;by On Target&nbsp;</li>
+<li><a href="http://blog.membase.com/use-cases-are-driving-divergence-and-convergence-nosql-solutions">Use cases are driving the divergence, and the convergence, of NoSQL solutions</a>&nbsp;by James &nbsp;Phillips</li>
+<li><a href="http://blogs.the451group.com/information_management/2010/11/12/the-beginning-of-the-end-of-nosql/">The beginning of the end of NoSQL</a> by&nbsp;Matthew Aslett&nbsp;</li>
+<li><a href="http://msdn.microsoft.com/en-us/magazine/ee310029.aspx">Going NoSQL with MongoDB</a>&nbsp;by&nbsp;Ted Neward</li>
+<li><a href="http://www.rackspacecloud.com/blog/2009/11/09/nosql-ecosystem/">NoSQL Ecosystem</a> by&nbsp;Jonathan Ellis</li>
+<li><a href="http://nosql.mypopescu.com/post/287581423/the-new-dimension-of-nosql-scalability-complexity">The New Dimension of NoSQL Scalability: Complexity</a>&nbsp;by Alex Popescu</li>
+<li><a href="http://themindstorms.blogspot.com/2009/05/quick-reference-to-alternative-data.html">Quick Reference to Alternative data storages</a>&nbsp;by Alex Popescu</li>
+<li><a href="http://www.havemacwillblog.com/2008/11/6-reasons-why-relational-database-will-be-superseded/">6 Reasons Why Relational Database Will Be Superseded</a>&nbsp;&nbsp;by Robin Bloor</li>
+<li><a href="http://www.viget.com/extend/nosql-misconceptions/">NoSQL Misconceptions</a> by Ben Scofield</li>
+<li><a href="http://adam.heroku.com/past/2009/7/6/sql_databases_dont_scale/">SQL Databases Don't Scale</a> by Adam Wiggins&nbsp;</li>
+<li><a href="http://www.cs.brown.edu/~ugur/fits_all.pdf">“One Size Fits All”: An Idea Whose Time Has Come and Gone</a>&nbsp;by&nbsp;Michael Stonebraker and&nbsp;Uğur Çetintemel</li>
+<li><a href="http://www.igvita.com/2009/12/07/future-of-rdbms-is-ram-clouds-ssd/">Future of RDBMS is RAM Clouds &amp; SSD</a>&nbsp;by&nbsp;Ilya Grigorik</li>
+<li>
+<div id="_mcePaste"></div>
+<div id="_mcePaste"><a href="http://www.slideshare.net/uri1803/to-scale-or-not-to-scale-keyvalue-document-sql-jpa-whats-right-for-my-app#">To scale or not to scale: Key/Value, Document, SQL, JPA</a> &nbsp;by Uri Cohen</div>
+<div id="_mcePaste"></div>
+<div id="_mcePaste"></div>
+</li>
+</ul>
